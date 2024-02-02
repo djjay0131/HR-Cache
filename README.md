@@ -46,7 +46,7 @@ After building the project, you can run the simulation using the following comma
 ./executables/hr [args]
 ```
 
-Replace `[args]` with the appropriate arguments for the simulation. The `--file-path` argument is required and specifies the path to the file to use for the simulation. To get paper results run as below:
+Replace `[args]` with the appropriate arguments for the simulation. The `--file-path` argument is required and specifies the path to the file to use for the simulation. To get paper results run as below with appropriate file and cache size:
 
 ```bashe
 ./executables/hr --file-path=inputs/wiki2018.tr --cache-size=68719476736
