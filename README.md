@@ -83,3 +83,9 @@ Request traces are expected to be in a space-separated format with 3 columns:
 |-----------------|-----------------|-----------------|
 | 1  | 1  | 140  |
 | 3  | 2  | 290  |
+
+## Comparison with Other Algorithms
+
+Our method has been compared against several algorithms to evaluate its performance effectively. These comparison algorithms are part of the [LRB simulator](https://github.com/sunnyszy/lrb).
+
+For comprehensive analysis and understanding of how our method compares to these established algorithms, please see the simulation results and discussion sections of our paper.
