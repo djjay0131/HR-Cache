@@ -84,6 +84,24 @@ Request traces are expected to be in a space-separated format with 3 columns:
 | 1  | 1  | 140  |
 | 3  | 2  | 290  |
 
+## Traces Used
+
+We utilized four public traces to evaluate the performance of our method:
+
+### Wikipedia Datasets (wiki2018 and wiki2019)
+
+- **Source**: The Wikipedia datasets for the years 2018 and 2019 were obtained from [Learning Relaxed Belady for Content Distribution Network Caching](https://github.com/sunnyszy/lrb), a paper by Zhenyu Song, Daniel S. Berger, Kai Li, and Wyatt Lloyd, presented at USENIX NSDI 2020.
+
+### EU Synthetic Dataset
+
+- **Source**: The synthetic EU dataset was generated using the JEDI generator available at [Jedi GitHub repository](https://github.com/UMass-LIDS/Jedi).
+
+### CloudPhysics Dataset
+
+- **Source**: "Efficient MRC construction with SHARDS" by Carl A. Waldspurger, Nohhyun Park, Alexander Garthwaite, and Irfan Ahmad, presented at the 13th USENIX Conference on File and Storage Technologies (FAST '15), pages 95–110, Santa Clara, CA, February 2015. 
+
+The traces, as used in our analyses and experiments, are readily available in the `input` directory of this repository for ease of access and replication of our results.
+
 ## Comparison with Other Algorithms
 
 Our method has been compared against several algorithms to evaluate its performance effectively. These comparison algorithms are part of the [LRB simulator](https://github.com/sunnyszy/lrb).
