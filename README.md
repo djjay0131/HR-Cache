@@ -46,10 +46,10 @@ After building the project, you can run the simulation using the following comma
 ./executables/hr [args]
 ```
 
-Replace `[args]` with the appropriate arguments for the simulation. The `--file-path` argument is required and specifies the path to the file to use for the simulation. Example:
+Replace `[args]` with the appropriate arguments for the simulation. The `--file-path` argument is required and specifies the path to the file to use for the simulation. To get paper results run as below:
 
 ```bashe
-./executables/hr --file-path=inputs/wikiTrace.tr --cache-size=68719476736
+./executables/hr --file-path=inputs/wiki2018.tr --cache-size=68719476736
 ```
 
 ### Additional args:
@@ -59,15 +59,15 @@ Replace `[args]` with the appropriate arguments for the simulation. The `--file-
 - `--rounds=`: Specifies the number of rounds for the simulation.
 - `--cache-size=`: Sets the cache size in bytes for the simulation.
 - `--evict-hot-for-cold`: If set to true, cache-friendly object will be evicted for cache-averse object.
-- `--features-length=`: Sets the length of the features for the simulation (2 is for frequency and size, to give 30 deltas for instance you would have to set this as 32).
+- `--features-length=`: Sets the length of the features for the simulation (2 is for frequency and size, to include 30 deltas for instance you would have to set this as 32).
 - `--hazard-bandwidth=`: Specifies the hazard bandwidth for the simulation.
 - `--hazard-discrete`: If set to true, the hazard will be discrete.
 - `--future-labeling`: If set to true, look back labeling will be used.
 - `--one-time-training`: If set to true, training will only be performed once.
 - `--max-boost-rounds=`: Specifies the maximum number of boosting rounds.
-- `--feature-frequency`: If set to true, frequency will be used in features.
+- `--feature-frequency`: If set to true, frequency (not decayed frequency) will be used in features.
 - `--feature-decayed-frequency=`: Sets the decay factor for feature decayed frequency.
-- `--feature-size`: If set to true, feature size will be used.
+- `--feature-size`: If set to true, size will be used as a feature.
 - `--report-interval=`: Specifies the report interval for the simulation (by default this is 1 million).
 - `--log-file=`: Specifies the name of the log file.
 
