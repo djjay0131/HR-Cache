@@ -1,4 +1,4 @@
-# ICPE24-EdgeCaching
+# HR-Cache
 
 # Project Installation and Running Guide
 
@@ -6,11 +6,18 @@ This guide provides instructions on how to build and run the project.
 
 ## Prerequisites
 
-The project requires LightGBM. If you already have LightGBM installed and it's accessible by g++, you can skip the LightGBM installation step.
+Before you build and run this project, ensure you have the following prerequisites installed on your system:
+
+- **C++ Compiler**: A compiler that supports C++17 standards (e.g., GCC or Clang).
+- **Git**: Required for cloning repositories, including LightGBM.
+- **CMake**: Needed for building LightGBM from source.
+- **pthread Library**: For multi-threading support.
+- **cURL Library**: Necessary for network operations in the server component.
+- **GNU Make**: For processing the Makefile.
+- **LightGBM**: Our project depends on LightGBM, a gradient boosting framework. Instructions for building LightGBM are provided below.
 
 ## Building LightGBM
-
-If you don't have LightGBM installed, you can build it using the provided Makefile:
+If LightGBM is not already installed and accessible by g++, follow these steps to build it from source:
 
 ```bash
 mkdir -p builds
