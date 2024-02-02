@@ -100,7 +100,7 @@ We utilized four public traces to evaluate the performance of our method:
 
 - **Source**: "Efficient MRC construction with SHARDS" by Carl A. Waldspurger, Nohhyun Park, Alexander Garthwaite, and Irfan Ahmad, presented at the 13th USENIX Conference on File and Storage Technologies (FAST '15), pages 95–110, Santa Clara, CA, February 2015. 
 
-The traces, as used in our analyses and experiments, are readily available in the compressed `input` directory of this repository for ease of access and replication of our results.
+The traces, as used in our analyses and experiments, are readily available in the `input` directory of this repository for ease of access and replication of our results.
 
 ## Comparison with Other Algorithms
 
