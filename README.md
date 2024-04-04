@@ -1,5 +1,7 @@
 # HR-Cache
 
+This repo contains code for ICPE’24 paper: [A Learning-Based Caching Mechanism for Edge Content Delivery](http://arxiv.org/abs/2402.02795)
+
 # Installation and Running Guide
 
 This guide provides instructions on how to build and run the project.
